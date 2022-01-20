@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="index - Copy %282%29.html" />
     <Content Include="index - Copy %283%29.html" />
-    <Content Include="index - Copy.html" />
+    <Content Include="index- Copy %281%29.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -84,6 +84,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSS\" />
+    <Folder Include="images\" />
+    <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
