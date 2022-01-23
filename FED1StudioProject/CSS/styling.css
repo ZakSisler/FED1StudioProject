@@ -11,7 +11,7 @@ nav ul li {
 /*Navbar Link Styling*/
 nav a {
     font-weight: bold;
-    color: lightsalmon;
+    color: #384d48;
 }
 
     nav a:hover, nav a:active, nav a:focus {
@@ -19,12 +19,56 @@ nav a {
     }
 
 nav ul {
-    background-color: teal;
+    background-color: #d16666;
     padding: 0;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
+    border-top: 2px dotted #acad94;
+    border-bottom: 2px dotted #acad94;
 }
 
 nav li:hover {
-    background-color: darkblue;
+    background-color: #acad94;
+}
+
+
+/*Color Scheme Styling*/
+
+body {
+    background-color: #2c4251;
+}
+
+/* This is an external stylesheet. It is designed for maximum reuse 
+    throughout the site and linked in the <head of the HTML page. */
+
+
+header {
+    background-color: #d16666;
+}
+
+main {
+    background-color: #2c4251;
+}
+
+h1 {
+    color: #d16666;
+    font-size: 24px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*aside h2 {
+    background-color: teal;
+    color: lightsalmon;
+    text-decoration: none;
+}*/
+
+header h1 {
+    color: #b6c649;
+}
+
+footer {
+    font-style: italic;
 }
