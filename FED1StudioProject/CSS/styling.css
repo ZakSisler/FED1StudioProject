@@ -1,4 +1,24 @@
-﻿/*Nav Link Structure - Make <nav> links horizontal*/
+﻿
+
+
+/*Imported Fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed&display=swap);
+
+/*font-family: 'Righteous', cursive;
+font-family: 'Roboto Condensed', sans-serif;*/
+/*Nav Link Structure - Make <nav> links horizontal*/
+
+
+
+/*Implement these logos for social media icons*/
+
+/*<i class="fa fa-facebook-square" aria-hidden="true" > </i >
+
+<i class="fa fa-twitter-square" aria-hidden="true" > </i >
+
+<i class="fa fa-instagram" aria-hidden="true" > </i >*/
+
+
 nav ul li {
     display: inline-block;
 }
@@ -51,6 +71,7 @@ main {
 h1 {
     color: #d16666;
     font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {
@@ -71,4 +92,8 @@ header h1 {
 
 footer {
     font-style: italic;
+}
+
+p, li {
+    font-family: 'Righteous', cursive;
 }
