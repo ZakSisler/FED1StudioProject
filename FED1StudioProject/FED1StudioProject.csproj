@@ -71,12 +71,12 @@
     <Content Include="Contacts.html" />
     <Content Include="CSS\styling.css" />
     <Content Include="Images\backgroundProject.jfif" />
-    <Content Include="Images\leafTrip.jfif" />
-    <Content Include="Images\milkyBackground.jfif" />
     <Content Include="Images\orangeLedge.jfif" />
     <Content Include="Images\orangeTechy.jpg" />
-    <Content Include="Images\smearBackground.jfif" />
-    <Content Include="Images\yellowPoolside.jfif" />
+    <Content Include="Images\personFour.jpg" />
+    <Content Include="Images\personOne.jfif" />
+    <Content Include="Images\personThree.jfif" />
+    <Content Include="Images\personTwo.jfif" />
     <Content Include="index.html" />
     <Content Include="Teams.html" />
     <Content Include="Web.config" />
