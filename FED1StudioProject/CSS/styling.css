@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav li:hover {
-    background-color: #acad94;
+    background-color: #ee5622;
 }
 
 
@@ -54,6 +54,9 @@ nav li:hover {
 
 body {
     background-color: #2c4251;
+    background: url(../Images/orangeTechy.jpg) transparent no-repeat center center fixed;
+    background-size: cover;
+    margin:auto;
 }
 
 /* This is an external stylesheet. It is designed for maximum reuse 
@@ -61,11 +64,11 @@ body {
 
 
 header {
-    background-color: #d16666;
+    background-color: #82c0cc;
 }
 
 main {
-    background-color: #2c4251;
+    background-color: #ffa62b;
 }
 
 h1 {
@@ -96,4 +99,13 @@ footer {
 
 p, li {
     font-family: 'Righteous', cursive;
+}
+
+
+#headerOverlay {
+    background-image: url(../images/orangeLedge.jfif);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: 1% center;
+    padding: 2em;
 }
