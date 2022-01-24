@@ -39,21 +39,21 @@ nav a {
     }
 
 nav ul {
-    background-color: #d16666;
+    background-color: #66cdaa;
     padding: 0;
     border-top: 2px dotted #acad94;
     border-bottom: 2px dotted #acad94;
 }
 
 nav li:hover {
-    background-color: #ee5622;
+    background-color: #ffa62b;
 }
 
 
 /*Color Scheme Styling*/
 
 body {
-    background-color: #2c4251;
+    background-color: #66cdaa;
     background: url(../Images/orangeTechy.jpg) transparent no-repeat center center fixed;
     background-size: cover;
     margin:auto;
@@ -72,7 +72,7 @@ main {
 }
 
 h1 {
-    color: #d16666;
+    color: #000000;
     font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -90,7 +90,7 @@ h2 {
 }*/
 
 header h1 {
-    color: #b6c649;
+    color: #ff6700;
 }
 
 footer {

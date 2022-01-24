@@ -70,14 +70,18 @@
     <Content Include="Classes.html" />
     <Content Include="Contacts.html" />
     <Content Include="CSS\styling.css" />
+    <Content Include="favicon-32x32.png" />
     <Content Include="Images\backgroundProject.jfif" />
     <Content Include="Images\orangeLedge.jfif" />
+    <Content Include="Images\orangeOne.jpg" />
     <Content Include="Images\orangeTechy.jpg" />
+    <Content Include="Images\orangeTwo.jpg" />
     <Content Include="Images\personFour.jpg" />
     <Content Include="Images\personOne.jfif" />
     <Content Include="Images\personThree.jfif" />
     <Content Include="Images\personTwo.jfif" />
-    <Content Include="index.html" />
+    <Content Include="Images\yellowPoolside.jfif" />
+    <Content Include="Index.html" />
     <Content Include="Teams.html" />
     <Content Include="Web.config" />
   </ItemGroup>
