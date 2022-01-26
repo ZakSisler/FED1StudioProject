@@ -26,6 +26,7 @@ nav ul li {
     nav ul li a {
         padding: .4em 1em;
         display: block;
+        margin: auto;
     }
 
 /*Navbar Link Styling*/
