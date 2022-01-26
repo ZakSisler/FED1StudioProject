@@ -40,24 +40,26 @@ nav a {
     }
 
 nav ul {
+    background-image:url(../Images/orangeTechy.jpg);
     background-color: #66cdaa;
     padding: 0;
-    border-top: 2px dotted #acad94;
-    border-bottom: 2px dotted #acad94;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 nav li:hover {
-    background-color: #ffa62b;
+    background-color: #ffa62a;
 }
 
 
 /*Color Scheme Styling*/
 
 body {
-    background-color: #66cdaa;
+    /*background-color: #66cdaa;*/
     background: url(../Images/orangeTechy.jpg) transparent no-repeat center center fixed;
     background-size: cover;
     margin:auto;
+    padding-bottom: 5px;
 }
 
 /* This is an external stylesheet. It is designed for maximum reuse 
@@ -65,30 +67,40 @@ body {
 
 
 header {
-    background-color: #82c0cc;
+    background-color: #9ad8f1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 main {
-    background-color: #ffa62b;
+    background-color: #f6df05;
+    padding-bottom: 45px;
+    margin: auto;
 }
 
 h1 {
     color: #000000;
     font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 25px;
+    margin: auto;
 }
 
 h2 {
     text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 25px;
+    margin: auto;
 }
 
 /*aside h2 {
     background-color: teal;
     color: lightsalmon;
     text-decoration: none;
-}*/
+}////not used yet/////*/
 
 header h1 {
     color: #ff6700;
@@ -107,6 +119,14 @@ p, li {
     background-image: url(../images/orangeLedge.jfif);
     background-repeat: no-repeat;
     background-size: 260px;
-    background-position: 1% center;
-    padding: 2em;
+    background-position: right;
+    padding: 1em;
 }
+
+/*#logoOrange {
+    background-image: url(../Images/orangeTwo.jpg);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: left;
+    margin: auto;
+}*//*Possible styling idea*/
