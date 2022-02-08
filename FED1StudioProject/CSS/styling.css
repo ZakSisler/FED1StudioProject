@@ -18,6 +18,53 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 <i class="fa fa-instagram" aria-hidden="true" > </i >*/
 
+/*
+    *************************************
+    index.html
+    *************************************
+*/
+
+
+/*TOP*/
+div#topLeftImg img{
+    width: 100%
+}
+
+article#topHtml{
+    width = 98%;
+}
+
+div#topLeftImg{
+    float: left;
+    width: 25%;
+}
+
+div#topRightText{
+    float: right;
+    width: 73%;
+}
+/*BOTTOM*/
+article#bottomHtml{
+    width = 98%;
+}
+
+div#midLeftImg{
+    float: left;
+    width: 48%;
+}
+
+div#midRightText{
+    float: right;
+    width: 48%;
+}
+
+}div#bottomRightImg {
+    float: right;
+    width: 48%;
+}
+div#bottomLeftText {
+    float: left;
+    width: 48%;
 
 nav ul li {
     display: inline-block;
@@ -73,8 +120,10 @@ main {
 
 h1 {
     color: #000000;
-    font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 5px auto;
 }
 
 h2 {
@@ -82,6 +131,10 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
+/*h3 {
+
+}*/
 
 /*aside h2 {
     background-color: teal;
