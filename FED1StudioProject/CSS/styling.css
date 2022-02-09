@@ -18,55 +18,53 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 <i class="fa fa-instagram" aria-hidden="true" > </i >*/
 
-/*
-    *************************************
-    index.html
-    *************************************
-*/
-
 
 /*TOP*/
-div#topLeftImg img{
+div#topLeftImg img {
     width: 100%
 }
 
-article#topHtml{
+article#topHtml {
     width: 98%;
 }
 
-div#topLeftImg{
+div#topLeftImg {
     float: left;
     width: 25%;
 }
 
-div#topRightText{
+div#topRightText {
     float: right;
     width: 73%;
 }
 /*BOTTOM*/
-article#bottomHtml{
+article#bottomHtml {
     width: 98%;
 }
 
-div#midLeftImg{
+div#midLeftImg {
     float: left;
     width: 48%;
+    transform:rotate(90deg);
+    padding-top: 35px;
 }
 
-div#midRightText{
+div#midRightText {
     float: right;
     width: 48%;
 }
 
-}div#bottomRightImg {
+div#bottomRightImg {
     float: right;
     width: 48%;
 }
+
 div#bottomLeftText {
     float: left;
     width: 48%;
+}
 
-    nav ul li {
+nav ul li {
     display: inline-block;
 }
 
@@ -103,7 +101,7 @@ body {
     background-color: #66cdaa;
     background: url(../Images/orangeTechy.jpg) transparent no-repeat center center fixed;
     background-size: cover;
-    margin:auto;
+    margin: auto;
 }
 
 /* This is an external stylesheet. It is designed for maximum reuse 
@@ -121,16 +119,22 @@ main {
 h1 {
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     text-align: center;
     margin: 5px auto;
+    
+    /*padding: -30px;*/
 }
+
+    
 
 h2 {
     text-decoration: underline;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
+    text-align: left;
 }
+
 
 /*h3 {
 
@@ -142,12 +146,15 @@ h2 {
     text-decoration: none;
 }*/
 
-header h1 {
+header h3 {
     color: #ff6700;
+    font-size: 25px;
 }
 
 footer {
     font-style: italic;
+    padding: 4em 1em;
+    display: block;
 }
 
 p, li {
@@ -161,4 +168,34 @@ p, li {
     background-size: 260px;
     background-position: 1% center;
     padding: 2em;
+}
+
+#clear {
+    clear: both;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lemonchiffon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        /*height: auto;*/
+    }
+
+    div.galleryItem a:hover {
+        background-color: lemonchiffon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
 }

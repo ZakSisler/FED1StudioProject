@@ -33,8 +33,6 @@
     <meta name="keywords" content="Learning, HTML, CSS, Website basics, FED1, Centriq" />
     <meta name="author" content="Zakary Sisler" />
 
-    <!-- EXTERNAL StyleSheet -->
-    <link href="css/styling.css" rel="stylesheet" />
 
     <!-- Font Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
@@ -52,6 +50,8 @@
     <link rel="icon" href="/favicon-32x32.png" type="image/x-icon" />
 
 
+    <!-- EXTERNAL StyleSheet -->
+    <link href="CSS/styling.css" rel="stylesheet" />
 
 </head>
 
@@ -63,14 +63,18 @@
             <div id="headerOverlay">
                 <!-- A header is a container at the top of a page or section -->
 
-                <h1><i class="fa fa-cog" aria-hidden="true"></i>Orange Training<i class="fa fa-cog" aria-hidden="true"></i></h1>
+                <h3><i class="fa fa-cog" aria-hidden="true"></i>Orange Training<!--<i class="fa fa-cog" aria-hidden="true">--></i></h3>
                 <!-- h1 acts as a site title, often seen in banners. -->
 
                 <p>Freshly squeezed learning.</p>
                 <!-- Tag line -->
 
             </div>
-
+            <div class="socialMedia">
+                <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+                <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+                <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+            </div>
 
 
         </header>
@@ -90,26 +94,32 @@
                 </li>
             </ul>
         </nav>
-        
+
         <!-- TOP-->
         <section>
             <article id="topHtml">
-                <div id="topLeftImg"><!-- float left -->
+                <div id="topLeftImg">
+                    <!-- float left -->
                     <img title="image goes here" alt="this is an image" src="Images/orangeOne.jpg" />
                 </div>
-                <div id="topRightText"> <!-- float right-->
+                <div id="topRightText">
+                    <!-- float right-->
                     <h2>About Us!</h2>
                     <p>
                         Hypatia made in the interiors of collapsing stars a mote of dust suspended in a sunbeam rogue stirred by starlight great turbulent clouds. Of brilliant syntheses network of wormholes Euclid extraordinary claims require extraordinary evidence at the edge of forever paroxysm of global death. Star stuff harvesting star light cosmos cosmos bits of moving fluff gathered by gravity bits of moving fluff. Citizens of distant epochs network of wormholes take root and flourish the only home we've ever known concept of the number one as a patch of light and billions upon billions upon billions upon billions upon billions upon billions upon billions.
                     </p>
                 </div>
+
+                <div id="clear"></div>
+
             </article>
             <!-- BOTTOM -->
-            <h1>Why Choose us</h1>
+            <h1 id="chooseUs">Why Choose Us</h1>
             <article id="bottomHtml">
                 <section>
+
                     <div id="midLeftImg">
-                        <img title="Image goes here" alt="This is an image" src="Images/orangeTwo.jpg"/>
+                        <img title="Image goes here" alt="This is an image" src="Images/indexPics/orangeyorange.jpg" />
                     </div>
                     <div id="midRightText">
                         <h3>Lorem ipsum dolor</h3>
@@ -117,6 +127,9 @@
                             Hypatia made in the interiors of collapsing stars a mote of dust suspended in a sunbeam rogue stirred by starlight great turbulent clouds. Of brilliant syntheses network of wormholes Euclid extraordinary claims require extraordinary evidence at the edge of forever paroxysm of global death. Star stuff harvesting star light cosmos cosmos bits of moving fluff gathered by gravity bits of moving fluff. Citizens of distant epochs network of wormholes take root and flourish the only home we've ever known concept of the number one as a patch of light and billions upon billions upon billions upon billions upon billions upon billions upon billions.
                         </p>
                     </div>
+
+                    <div id="clear"></div>
+
                 </section>
                 <section>
                     <div id="bottomLeftText">
@@ -126,19 +139,29 @@
                         </p>
                     </div>
                     <div id="bottomRightImg">
-                        <img title="Image goes here" alt="This is an image" src="Images/indexPics/orangeyorange.jpg"/>
+                        <img title="Image goes here" alt="This is an image" src="Images/orangeTwo.jpg" />
                     </div>
+
+
+
+                    <div id="clear"></div>
+
                 </section>
 
             </article>
+            <div id="clear"></div>
         </section>
         <!--<div class="clear"></div>-->
     </main>
 
-    <!-- <footer> <footer> is a container at the bottom of a page or section and usually provides closing info.
-
-            &copy;Copyright 2022 Zakary Sisler
+    <footer id="indexFooter">
+        <div class="socialMedia">
+            <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+        </div>
+        &copy;Copyright 2022 Zakary Sisler
         <br />
-    </footer>-->
+    </footer>
 </body>
 </html>
