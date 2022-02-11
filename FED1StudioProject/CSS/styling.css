@@ -68,8 +68,8 @@ nav ul li {
 }
 
     nav ul li a {
-        padding: .4em 1em;
-        display: block;
+        padding: .8em 2em;
+        display: inline-block;
     }
 
 /*Navbar Link Styling*/
@@ -85,8 +85,8 @@ nav a {
 nav ul {
     background-color: rgb(130,192,204);
     padding: 0;
-    border-top: 2px dotted #acad94;
-    border-bottom: 2px dotted #acad94;
+    border-top: 2px solid #acad94;
+    border-bottom: 2px solid #acad94;
 }
 
 nav li:hover {
@@ -166,7 +166,8 @@ p, li {
     background-repeat: no-repeat;
     background-size: 260px;
     background-position: 1% center;
-    padding: 2em;
+    padding: 3em;
+    padding-bottom: 3em;
 }
 
 #clear {
@@ -234,4 +235,12 @@ aside {
     float: right;
     font-style: italic;
     background-color: lightgray;
+    display:inline-block;
 }
+
+/*div#teamTop p {
+    float:right;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+}*/
