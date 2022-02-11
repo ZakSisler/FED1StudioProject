@@ -10,13 +10,10 @@ font-family: 'Roboto Condensed', sans-serif;*/
 
 
 
-/*Implement these logos for social media icons*/
-
-/*<i class="fa fa-facebook-square" aria-hidden="true" > </i >
-
-<i class="fa fa-twitter-square" aria-hidden="true" > </i >
-
-<i class="fa fa-instagram" aria-hidden="true" > </i >*/
+div#socialMedia span i{
+    float: right;
+    margin: auto;
+}
 
 
 /*TOP*/
@@ -56,7 +53,9 @@ div#midRightText {
 
 div#bottomRightImg {
     float: right;
-    width: 48%;
+    width: 45%;
+    height: auto;
+    transform: rotate(90deg);
 }
 
 div#bottomLeftText {
@@ -84,7 +83,7 @@ nav a {
     }
 
 nav ul {
-    background-color: #66cdaa;
+    background-color: rgb(130,192,204);
     padding: 0;
     border-top: 2px dotted #acad94;
     border-bottom: 2px dotted #acad94;
@@ -198,4 +197,41 @@ div.galleryItem {
     margin: 0 auto;
     width: 85%;
     text-align: center;
+}
+
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    margin:auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color:aqua;
+    text-align: center;
+}
+
+
+/*Aside Styling*/
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
 }
